@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script defer src="script/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>BATTLE SHIP</h1>
+        </div>
+
+    </header>
+    <main class="box">
+        <div id="player-ships-stats" class="stats">player ships stat</div>
+        <div id="player-ships">
+            <div id="carrier" class="ships" draggable="true">
+                <div id="carrier-0"></div>
+                <div id="carrier-1"></div>
+                <div id="carrier-2"></div>
+                <div id="carrier-3"></div>
+                <div id="carrier-4"></div>
+            </div>
+            <div id="battleship" class="ships" draggable="true">
+                <div id="battleship-0"></div>
+                <div id="battleship-1"></div>
+                <div id="battleship-2"></div>
+                <div id="battleship-3"></div>
+            </div>
+            <div id="submarine" class="ships" draggable="true">
+                <div id="submarine-0"></div>
+                <div id="submarine-1"></div>
+                <div id="submarine-2"></div>
+            </div>
+            <div id="cruiser" class="ships" draggable="true">
+                <div id="cruiser-0"></div>
+                <div id="cruiser-1"></div>
+                <div id="cruiser-2"></div>
+            </div>
+            <div id="destroyer" class="ships" draggable="true">
+                <div id="destroyer-0"></div>
+                <div id="destroyer-1"></div>
+
+            </div>
+        </div>
+        <div id="player-table-stat" class="stats">player Table</div>
+        <div>
+            <table class="player-table disable" id="player-table">
+                <tr>
+                    <th></th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                    <th>7</th>
+                    <th>8</th>
+                    <th>9</th>
+                    <th>10</th>
+
+                </tr>
+                <tr>
+                    <th class="headers">A</th>
+                    <td class="player-cell" id="100"></td>
+                    <td class="player-cell" id="101"></td>
+                    <td class="player-cell" id="102"></td>
+                    <td class="player-cell" id="103"></td>
+                    <td class="player-cell" id="104"></td>
+                    <td class="player-cell" id="105"></td>
+                    <td class="player-cell" id="106"></td>
+                    <td class="player-cell" id="107"></td>
+                    <td class="player-cell" id="108"></td>
+                    <td class="player-cell" id="109"></td>
+
+                </tr>
+                <tr>
+                    <th class="headers">B</th>
+                    <td class="player-cell" id="110"></td>
+                    <td class="player-cell" id="111"></td>
+                    <td class="player-cell" id="112"></td>
+                    <td class="player-cell" id="113"></td>
+                    <td class="player-cell" id="114"></td>
+                    <td class="player-cell" id="115"></td>
+                    <td class="player-cell" id="116"></td>
+                    <td class="player-cell" id="117"></td>
+                    <td class="player-cell" id="118"></td>
+                    <td class="player-cell" id="119"></td>
+
+                </tr>
+                <tr>
+                    <th class="headers">C</th>
+                    <td class="player-cell" id="120"></td>
+                    <td class="player-cell" id="121"></td>
+                    <td class="player-cell" id="122"></td>
+                    <td class="player-cell" id="123"></td>
+                    <td class="player-cell" id="124"></td>
+                    <td class="player-cell" id="125"></td>
+                    <td class="player-cell" id="126"></td>
+                    <td class="player-cell" id="127"></td>
+                    <td class="player-cell" id="128"></td>
+                    <td class="player-cell" id="129"></td>
+
+                </tr>
+                <tr>
+                    <th class="headers">D</th>
+                    <td class="player-cell" id="130"></td>
+                    <td class="player-cell" id="131"></td>
+                    <td class="player-cell" id="132"></td>
+                    <td class="player-cell" id="133"></td>
+                    <td class="player-cell" id="134"></td>
+                    <td class="player-cell" id="135"></td>
+                    <td class="player-cell" id="136"></td>
+                    <td class="player-cell" id="137"></td>
+                    <td class="player-cell" id="138"></td>
+                    <td class="player-cell" id="139"></td>
+
+                </tr>
+                <tr>
+                    <th class="headers">E</th>
+                    <td class="player-cell" id="140"></td>
+                    <td class="player-cell" id="141"></td>
+                    <td class="player-cell" id="142"></td>
+                    <td class="player-cell" id="143"></td>
+                    <td class="player-cell" id="144"></td>
+                    <td class="player-cell" id="145"></td>
+                    <td class="player-cell" id="146"></td>
+                    <td class="player-cell" id="147"></td>
+                    <td class="player-cell" id="148"></td>
+                    <td class="player-cell" id="149"></td>
+
+                </tr>
+                <tr>
+                    <th class="headers">F</th>
+                    <td class="player-cell" id="150"></td>
+                    <td class="player-cell" id="151"></td>
+                    <td class="player-cell" id="152"></td>
+                    <td class="player-cell" id="153"></td>
+                    <td class="player-cell" id="154"></td>
+                    <td class="player-cell" id="155"></td>
+                    <td class="player-cell" id="156"></td>
+                    <td class="player-cell" id="157"></td>
+                    <td class="player-cell" id="158"></td>
+                    <td class="player-cell" id="159"></td>
+
+                </tr>
+                <tr>
+                    <th class="headers">G</th>
+                    <td class="player-cell" id="160"></td>
+                    <td class="player-cell" id="161"></td>
+                    <td class="player-cell" id="162"></td>
+                    <td class="player-cell" id="163"></td>
+                    <td class="player-cell" id="164"></td>
+                    <td class="player-cell" id="165"></td>
+                    <td class="player-cell" id="166"></td>
+                    <td class="player-cell" id="167"></td>
+                    <td class="player-cell" id="168"></td>
+                    <td class="player-cell" id="169"></td>
+
+                </tr>
+                <tr>
+
+                    <th class="headers">H</th>
+                    <td class="player-cell" id="170"></td>
+                    <td class="player-cell" id="171"></td>
+                    <td class="player-cell" id="172"></td>
+                    <td class="player-cell" id="173"></td>
+                    <td class="player-cell" id="174"></td>
+                    <td class="player-cell" id="175"></td>
+                    <td class="player-cell" id="176"></td>
+                    <td class="player-cell" id="177"></td>
+                    <td class="player-cell" id="178"></td>
+                    <td class="player-cell" id="179"></td>
+
+                </tr>
+                <tr>
+                    <th class="headers">I</th>
+                    <td class="player-cell" id="180"></td>
+                    <td class="player-cell" id="181"></td>
+                    <td class="player-cell" id="182"></td>
+                    <td class="player-cell" id="183"></td>
+                    <td class="player-cell" id="184"></td>
+                    <td class="player-cell" id="185"></td>
+                    <td class="player-cell" id="186"></td>
+                    <td class="player-cell" id="187"></td>
+                    <td class="player-cell" id="188"></td>
+                    <td class="player-cell" id="189"></td>
+
+                </tr>
+                <tr>
+                    <th class="headers">J</th>
+                    <td class="player-cell" id="190"></td>
+                    <td class="player-cell" id="191"></td>
+                    <td class="player-cell" id="192"></td>
+                    <td class="player-cell" id="193"></td>
+                    <td class="player-cell" id="194"></td>
+                    <td class="player-cell" id="195"></td>
+                    <td class="player-cell" id="196"></td>
+                    <td class="player-cell" id="197"></td>
+                    <td class="player-cell" id="198"></td>
+                    <td class="player-cell" id="199"></td>
+
+                </tr>
+            </table>
+        </div>
+        <div id="computer-table-stat" class="stats">computer table</div>
+        <div>
+            <table class="computer-tabel disable" id="computer-table ">
+                <tr>
+                    <th></th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                    <th>7</th>
+                    <th>8</th>
+                    <th>9</th>
+                    <th>10</th>
+
+                </tr>
+                <tr>
+                    <th class="headers">A</th>
+                    <td class="computer-cell" id="C-A-1"></td>
+                    <td class="computer-cell" id="C-A-2"></td>
+                    <td class="computer-cell" id="C-A-3"></td>
+                    <td class="computer-cell" id="C-A-4"></td>
+                    <td class="computer-cell" id="C-A-5"></td>
+                    <td class="computer-cell" id="C-A-6"></td>
+                    <td class="computer-cell" id="C-A-7"></td>
+                    <td class="computer-cell" id="C-A-8"></td>
+                    <td class="computer-cell" id="C-A-9"></td>
+                    <td class="computer-cell" id="C-A-10"></td>
+                </tr>
+                <tr>
+                    <th class="headers">B</th>
+                    <td class="computer-cell" id="C-B-1"></td>
+                    <td class="computer-cell" id="C-B-2"></td>
+                    <td class="computer-cell" id="C-B-3"></td>
+                    <td class="computer-cell" id="C-B-4"></td>
+                    <td class="computer-cell" id="C-B-5"></td>
+                    <td class="computer-cell" id="C-B-6"></td>
+                    <td class="computer-cell" id="C-B-7"></td>
+                    <td class="computer-cell" id="C-B-8"></td>
+                    <td class="computer-cell" id="C-B-9"></td>
+                    <td class="computer-cell" id="C-B-10"></td>
+                </tr>
+                <tr>
+                    <th class="headers">C</th>
+                    <td class="computer-cell" id="C-C-1"></td>
+                    <td class="computer-cell" id="C-C-2"></td>
+                    <td class="computer-cell" id="C-C-3"></td>
+                    <td class="computer-cell" id="C-C-4"></td>
+                    <td class="computer-cell" id="C-C-5"></td>
+                    <td class="computer-cell" id="C-C-6"></td>
+                    <td class="computer-cell" id="C-C-7"></td>
+                    <td class="computer-cell" id="C-C-8"></td>
+                    <td class="computer-cell" id="C-C-9"></td>
+                    <td class="computer-cell" id="C-C-10"></td>
+                </tr>
+                <tr>
+                    <th class="headers">D</th>
+                    <td class="computer-cell" id="C-D-1"></td>
+                    <td class="computer-cell" id="C-D-2"></td>
+                    <td class="computer-cell" id="C-D-3"></td>
+                    <td class="computer-cell" id="C-D-4"></td>
+                    <td class="computer-cell" id="C-D-5"></td>
+                    <td class="computer-cell" id="C-D-6"></td>
+                    <td class="computer-cell" id="C-D-7"></td>
+                    <td class="computer-cell" id="C-D-8"></td>
+                    <td class="computer-cell" id="C-D-9"></td>
+                    <td class="computer-cell" id="C-D-10"></td>
+                </tr>
+                <tr>
+                    <th class="headers">E</th>
+                    <td class="computer-cell" id="C-E-1"></td>
+                    <td class="computer-cell" id="C-E-2"></td>
+                    <td class="computer-cell" id="C-E-3"></td>
+                    <td class="computer-cell" id="C-E-4"></td>
+                    <td class="computer-cell" id="C-E-5"></td>
+                    <td class="computer-cell" id="C-E-6"></td>
+                    <td class="computer-cell" id="C-E-7"></td>
+                    <td class="computer-cell" id="C-E-8"></td>
+                    <td class="computer-cell" id="C-E-9"></td>
+                    <td class="computer-cell" id="C-E-10"></td>
+                </tr>
+                <tr>
+                    <th class="headers">F</th>
+                    <td class="computer-cell" id="C-F-1"></td>
+                    <td class="computer-cell" id="C-F-2"></td>
+                    <td class="computer-cell" id="C-F-3"></td>
+                    <td class="computer-cell" id="C-F-4"></td>
+                    <td class="computer-cell" id="C-F-5"></td>
+                    <td class="computer-cell" id="C-F-6"></td>
+                    <td class="computer-cell" id="C-F-7"></td>
+                    <td class="computer-cell" id="C-F-8"></td>
+                    <td class="computer-cell" id="C-F-9"></td>
+                    <td class="computer-cell" id="C-F-10"></td>
+                </tr>
+                <tr>
+                    <th class="headers">G</th>
+                    <td class="computer-cell" id="C-G-1"></td>
+                    <td class="computer-cell" id="C-G-2"></td>
+                    <td class="computer-cell" id="C-G-3"></td>
+                    <td class="computer-cell" id="C-G-4"></td>
+                    <td class="computer-cell" id="C-G-5"></td>
+                    <td class="computer-cell" id="C-G-6"></td>
+                    <td class="computer-cell" id="C-G-7"></td>
+                    <td class="computer-cell" id="C-G-8"></td>
+                    <td class="computer-cell" id="C-G-9"></td>
+                    <td class="computer-cell" id="C-G-10"></td>
+                </tr>
+                <tr>
+                    <th class="headers">H</th>
+                    <td class="computer-cell" id="C-H-1"></td>
+                    <td class="computer-cell" id="C-H-2"></td>
+                    <td class="computer-cell" id="C-H-3"></td>
+                    <td class="computer-cell" id="C-H-4"></td>
+                    <td class="computer-cell" id="C-H-5"></td>
+                    <td class="computer-cell" id="C-H-6"></td>
+                    <td class="computer-cell" id="C-H-7"></td>
+                    <td class="computer-cell" id="C-H-8"></td>
+                    <td class="computer-cell" id="C-H-9"></td>
+                    <td class="computer-cell" id="C-H-10"></td>
+                </tr>
+                <tr>
+                    <th class="headers">I</th>
+                    <td class="computer-cell" id="C-I-1"></td>
+                    <td class="computer-cell" id="C-I-2"></td>
+                    <td class="computer-cell" id="C-I-3"></td>
+                    <td class="computer-cell" id="C-I-4"></td>
+                    <td class="computer-cell" id="C-I-5"></td>
+                    <td class="computer-cell" id="C-I-6"></td>
+                    <td class="computer-cell" id="C-I-7"></td>
+                    <td class="computer-cell" id="C-I-8"></td>
+                    <td class="computer-cell" id="C-I-9"></td>
+                    <td class="computer-cell" id="C-I-10"></td>
+                </tr>
+                <tr>
+                    <th class="headers">J</th>
+                    <td class="computer-cell" id="C-J-1"></td>
+                    <td class="computer-cell" id="C-J-2"></td>
+                    <td class="computer-cell" id="C-J-3"></td>
+                    <td class="computer-cell" id="C-J-4"></td>
+                    <td class="computer-cell" id="C-J-5"></td>
+                    <td class="computer-cell" id="C-J-6"></td>
+                    <td class="computer-cell" id="C-J-7"></td>
+                    <td class="computer-cell" id="C-J-8"></td>
+                    <td class="computer-cell" id="C-J-9"></td>
+                    <td class="computer-cell" id="C-J-10"></td>
+                </tr>
+            </table>
+            </table>
+        </div>
+        <!-- <div id="computer-ships-stats" class="stats" >computer ships stat</div>
+        <div id="computer-ships">computer ships</div> -->
+    </main>
+    <footer>
+        <div>
+            <button id="start-game-button">START GAME</button>
+            <button id="restart-game-button" class="hidden">RESTART</button>
+        </div>
+    </footer>
+</body>
+
+</html>
