@@ -797,7 +797,7 @@ function playClick() {
     cellLeftCor.includes(this.id)
   ) {
     console.log("ship placed");
-    addShip();
+    // addShip();
   } else if (
     clicks[0] !== this.id &&
     !cellRighCor.includes(this.id) &&
