@@ -123,13 +123,13 @@ td {
 }
 
 #cruiser {
-    width: fit-content;
+    cursor: pointer;
     display: flex;
     flex-direction: row;
 }
 
 #destroyer {
-    width: fit-content;
+    cursor: pointer;
     display: flex;
     flex-direction: row;
 }
@@ -353,10 +353,37 @@ td {
     background-size: 101% 101%;
     transform: rotate(-270deg);
 
-
+color: darkblue
 }
 
 
 .invisible {
     visibility: hidden;
+}
+.ship {
+    background-color: red;
+}
+
+.placed-ship {
+    background-color: green;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.darkblue {
+    background-color: darkblue;
+}
+
+.blue {
+    background-color: blue;
 }
