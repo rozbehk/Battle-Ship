@@ -42,11 +42,11 @@ SCREENSHOTS
 HOW TO PLAY
 --------------
 
-Use player random button to place tour ships on the board, when you finish hit the start button. 
+Use player random button to place your ships on the board, when you finish hit the start button. 
 
-There is a Do Not Cheat button that shows enemy ships. again "DO NOT CHEATE"
+There is a "Do Not Cheat button" that shows enemy ships. again "DO NOT CHEATE"
 
 
-Deployed Link: [Link](https://www.roozbehk.com/BATTLESHIP/))
+Deployed Link: [Link](https://www.roozbehk.com/BATTLESHIP/)
 
 
