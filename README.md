@@ -33,6 +33,9 @@ SCREENSHOTS
 ![image](https://user-images.githubusercontent.com/109234009/193694178-36a9af1c-f906-44db-ab0f-43bfb0756771.png)
 
 
+![image](https://user-images.githubusercontent.com/109234009/193694449-d90ffa80-c312-4e24-9f5d-f946d353504d.png)
+
+
 
 
 
@@ -44,4 +47,6 @@ Use player random button to place tour ships on the board, when you finish hit t
 There is a Do Not Cheat button that shows enemy ships. again "DO NOT CHEATE"
 
 
-Deployed Link: [Link]([https://user-images.githubusercontent.com/109234009/193694178-36a9af1c-f906-44db-ab0f-43bfb0756771.png](https://www.roozbehk.com/BATTLESHIP/))
+Deployed Link: [Link](https://www.roozbehk.com/BATTLESHIP/))
+
+
