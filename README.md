@@ -28,10 +28,20 @@ TECHNOLOGIES
 * Javascript
 * CSS
 
+SCREENSHOTS
+--------------
+![image](https://user-images.githubusercontent.com/109234009/193694178-36a9af1c-f906-44db-ab0f-43bfb0756771.png)
+
+
+
 
 
 HOW TO PLAY
 --------------
 
-Will Add soon
+Use player random button to place tour ships on the board, when you finish hit the start button. 
 
+There is a Do Not Cheat button that shows enemy ships. again "DO NOT CHEATE"
+
+
+Deployed Link: [Link]([https://user-images.githubusercontent.com/109234009/193694178-36a9af1c-f906-44db-ab0f-43bfb0756771.png](https://www.roozbehk.com/BATTLESHIP/))
